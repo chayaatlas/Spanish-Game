@@ -1,0 +1,83 @@
+<html>
+<head>
+	<meta charset="utf-8" >
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="language_game.css" rel="stylesheet" />
+	<link href="language_game_responsive.css" rel="stylesheet" />
+	<title>Spanish Game</title>	
+</head>
+<body>
+	<!-- sounds -->
+	<audio id="backmusic" loop >
+		<source src="background_music.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="checksound" >
+		<source src="check.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="winsound" >
+		<source src="win.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="xsound" >
+		<source src="x.mp3" type="audio/mpeg">
+	</audio>
+	
+	<!-- buttons to enable and disable music and sound -->
+	<div id="soundbuttonscontainer" >
+		<button id="music" class="soundbuttons" >&#9835;</button>
+		<button id="sound" class="soundbuttons" style="padding-bottom: 10%;" >&#128362;</button>
+	</div>
+	
+	<!-- cover including play/newgame button, and end-game feedback -->
+	<div id="cover1" class="blueBack" >
+		<p id="rank" class="incover" ></p>
+		<p id="win" class="incover" ></p>
+		<button id="firstRound" class="newgame" >Play</button>
+		<button id="laterRound" class="newgame incover" >New Game</button>
+	</div>
+	
+	<!-- layer including category options -->
+	<div id="categories" class="blueBack" >
+		<button id = "fruit" class="catoptions" >
+			<img src="lots_of_fruits.png"/>
+			<p>frutas</p>
+		</button>
+		<button id = "jobs" class="catoptions" >
+			<img src="lots_of_jobs.png" />
+			<p>empleos</p>
+		</button>
+		<button id = "numbers" class="catoptions" >
+			<img src="lots_of_numbers.png" />
+			<p>números</p>
+		</button>
+	</div>
+	
+	<!-- body including multiple pictures,
+	spanish word associated with one picture, 
+	and next button -->
+	<div id="subbody" >
+		<div id="flexcontainer" >
+			<div id="outerbox0" class="box" >
+				<div id="box0" class="innerflexitem" ></div>
+			</div>
+			<div id="outerbox1" class="box" >
+				<div id="box1" class="innerflexitem" ></div>
+			</div>
+			<div id="outerbox2" class="box" >
+				<div id="box2" class="innerflexitem" ></div>
+			</div>
+			<div id="outerbox3" class="box" >
+				<div id="box3" class=	"innerflexitem" ></div>
+			</div>
+			<div id="text"></div>
+		</div>
+		<img id="next" src="arrow1.png" alt="Next" />
+	<script src="spanish_game.js" ></script>
+	</div>
+	
+	<!-- div for checks and exes -->
+	<div id="feedback" ></div>
+</body>
+</html>
+<!--
+My trumpet and Me - Royalty-Free Music by https://audiohub.com
+License: CC BY (https://creativecommons.org/licenses/by/4.0/)

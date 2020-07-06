@@ -1,0 +1,52 @@
+var fruit_dictionary = {
+	"apple":"manzana",
+	"pear":"pera",
+	"banana":"plátano",
+	"kiwi":"kiwi",
+	"cherry":"cereza",
+	"strawberry":"fresa",
+	"date":"datil",
+	"peach":"melocotón",
+	"watermelon":"sandía",
+	"avocado":"aguacate",
+	"orange":"naranja",
+	"pineapple":"piña",
+}
+	
+var jobs_dictionary = {
+	"artist":"pintor",
+	"builder":"constructor",
+	"chef":"cocinero",
+	"detective":"detective",
+	"doctor":"médico",
+	"fireman":"bombero",
+	"fisherman":"pescador",
+	"gardener":"jardinero",
+	"mailman":"cartero",
+	"pilot":"piloto",
+	"plumber":"fontanero",
+	"police_man":"policía",
+	"mechanic":"mecánico",
+	"sailor":"marinero",
+}
+	
+var numbers_dictionary = {
+	"zero":"cero",
+	"one":"uno",
+	"two":"dos",
+	"three":"tres",
+	"four":"cuatro",
+	"five":"cinco",
+	"six":"seis",
+	"seven":"siete",
+	"eight":"ocho",
+	"nine":"nueve",
+
+¡Ganaste!
+¡Muy bueno!
+Es bueno
+No bueno
+
+frutas
+empleos
+números

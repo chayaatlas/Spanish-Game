@@ -1,0 +1,58 @@
+/* horizontal and vertical devices */
+@media only screen and (max-width: 823px) {
+	#win { font-size: 2em }
+	#rank { font-size: 6em }
+	.catoptions { font-size: 2.5em; }
+	.soundbuttons { font-size: 1.7em }
+	button p { width: 3.9em }
+	.box {
+		margin: 0% 1%;
+		flex: 1 1 10%;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	#text {
+		width: 85%;
+		font-size: 2em;
+	}
+}
+
+/* narrow vertical devices */
+@media only screen and (max-width: 567px) {
+	#categories {
+		flex-direction: column;
+	}
+	.box {
+		flex: 1 1 0%;
+		height: 14%;
+		width: 14%;
+		padding: 5% 20%;
+	}
+	.innerflexitem img { max-width: unset }
+}
+
+/* for vertical iPads */
+@media only screen and (width: 768px), only screen and (width: 1024px) {
+	#categories { flex-direction: column }
+	.catoptions { font-size: 5em }
+	.soundbuttons { font-size: 3em }
+	#win { font-size: 6em }
+	#rank {     
+		font-size: 8em;
+		margin: 0px 15%;
+	}
+	.box { flex: 1 1 35% }
+	button p {
+		float: right;
+		margin-left: 10px;
+		line-height: 2.5em;
+	}
+	#text {
+		width: 100%;
+		font-size: 4em;
+		padding: auto 2%;
+	}
+}
+
+/* compatible with most devices
+   not completely compatible with iPhone 5/SE */
